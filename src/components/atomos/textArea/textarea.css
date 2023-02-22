@@ -1,0 +1,25 @@
+textarea {
+  width: 464px;
+  height: 198px;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 24px 22px;
+  color: #000;
+}
+.textareaError {
+  background: #dddae5;
+  border: 2px solid #ee0b5c;
+}
+.textAreaComplete {
+  background: #dddae5;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  textarea {
+    width: 283px;
+    height: 89px;
+
+    background: #ffffff;
+    border-radius: 9px;
+  }
+}

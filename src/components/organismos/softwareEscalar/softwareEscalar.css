@@ -1,0 +1,29 @@
+.softwareEscalar {
+  display: flex;
+  padding: 136px 144px 200px 144px;
+  justify-content: space-between;
+}
+.softwareVideo {
+  width: 471px;
+  height: 416px;
+}
+.softwareTextos {
+  width: 565px;
+}
+@media screen and (max-width: 768px) {
+  .softwareEscalar {
+    padding: 40px 30px;
+    flex-flow: column-reverse;
+    width: 90%;
+  }
+  .softwareVideo {
+    width: 328px;
+    height: 290px;
+  }
+  .softwareTextos {
+    width: 100%;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+}
